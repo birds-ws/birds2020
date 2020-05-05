@@ -17,6 +17,8 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #f4623a;
+  --orange-light: #ffefe8;
+  --orange-light-trans: #ffefe8cc;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -6067,7 +6069,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background: linear-gradient(to bottom, #ffefe8bb,  #ffefe8bb),url("../assets/img/bg-bird.jpg");
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6127,12 +6129,20 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  /*background-color: #f8f9fa !important;*/
+  background: linear-gradient(to bottom, #ffefe8bb, #ffefe8bb),url("../assets/img/bg-1.jpg");
+}
+
+.bg-light2 {
+  /*background-color: #f8f9fa !important;*/
+  background: linear-gradient(to bottom, #ffefe8bb, #ffefe8bb),url("../assets/img/bg-lamps.jpg");
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
-button.bg-light:focus {
+button.bg-light:focus, a.bg-light2:hover, a.bg-light2:focus,
+button.bg-light2:hover,
+button.bg-light2:focus {
   background-color: #dae0e5 !important;
 }
 
