@@ -602,8 +602,10 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+  /*
   margin-right: -15px;
   margin-left: -15px;
+  */
 }
 
 .no-gutters {
@@ -6069,7 +6071,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: linear-gradient(to bottom, #ffefe8bb,  #ffefe8bb),url("../assets/img/bg-bird.jpg");
+  background: linear-gradient(to bottom, #ffefe8be 0%,  #ffefe8 100%),url("../assets/img/bg-scenery.jpg");
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6130,19 +6132,26 @@ button.bg-danger:focus {
 
 .bg-light {
   /*background-color: #f8f9fa !important;*/
-  background: linear-gradient(to bottom, #ffefe8bb, #ffefe8bb),url("../assets/img/bg-1.jpg");
+  background: linear-gradient(to bottom, #ffefe8be 0%, #ffefe8 100%),url("../assets/img/bg-bird.jpg");
 }
 
 .bg-light2 {
   /*background-color: #f8f9fa !important;*/
-  background: linear-gradient(to bottom, #ffefe8bb, #ffefe8bb),url("../assets/img/bg-lamps.jpg");
+  background: linear-gradient(to bottom, #ffefe8be 0%, #ffefe8 100%),url("../assets/img/bg-lamps.jpg");
+}
+
+.bg-light3 {
+  /*background-color: #f8f9fa !important;*/
+  background: linear-gradient(to bottom, #ffefe8be 0%, #ffefe8 100%),url("../assets/img/bg-terracotta.jpg");
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus, a.bg-light2:hover, a.bg-light2:focus,
 button.bg-light2:hover,
-button.bg-light2:focus {
+button.bg-light2:focus,  a.bg-light3:hover, a.bg-light3:focus,
+button.bg-light3:hover,
+button.bg-light3:focus {
   background-color: #dae0e5 !important;
 }
 
@@ -9990,7 +9999,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 #mainNav {
@@ -10058,7 +10067,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 50%), url("../assets/img/bg-masthead.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 1) 100%), url("../assets/img/bg-masthead.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
