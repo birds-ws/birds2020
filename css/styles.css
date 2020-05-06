@@ -6130,6 +6130,10 @@ button.bg-danger:focus {
   background-color: #bd2130 !important;
 }
 
+.bg-light-plain {
+  background-color: #f8f9fa !important;
+}
+
 .bg-light {
   /*background-color: #f8f9fa !important;*/
   background: linear-gradient(to bottom, #ffefe8be 0%, #ffefe8 100%),url("../assets/img/bg-bird.jpg");
@@ -6151,7 +6155,9 @@ button.bg-light:focus, a.bg-light2:hover, a.bg-light2:focus,
 button.bg-light2:hover,
 button.bg-light2:focus,  a.bg-light3:hover, a.bg-light3:focus,
 button.bg-light3:hover,
-button.bg-light3:focus {
+button.bg-light3:focus, a.bg-light-plain:hover, a.bg-light-plain:focus,
+button.bg-light-plain:hover,
+button.bg-light-plain:focus {
   background-color: #dae0e5 !important;
 }
 
